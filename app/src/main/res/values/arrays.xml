@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    
+    <string-array name="fontTypeStringArray">
+        <item>"sans-serif"</item>
+        <item>"sans-serif-light"</item>
+        <item>"sans-serif-condensed"</item>
+    </string-array>
+
+    <string-array name="fontStyleStringArray">
+        <item>"normal"</item>
+        <item>"bold"</item>
+        <item>"italic"</item>
+        <item>"bold-italic"</item>
+    </string-array>
+
+    <string-array name="decimalSeparatorStringArray">
+        <item>Dot</item>
+        <item>Comma</item>
+    </string-array>
+
+    <string-array name="lineStyleStringArray">
+        <item>Solid</item>
+        <item>Dotted</item>
+        <item>Dashed</item>
+    </string-array>
+    
+    <string-array name="curveWidthStringArray">
+        <item>1</item>
+        <item>2</item>
+        <item>3</item>
+        <item>4</item>
+        <item>5</item>
+        <item>6</item>
+        <item>7</item>
+        <item>8</item>
+        <item>9</item>
+        <item>10</item>
+    </string-array>
+    <string-array name="curveColorStringArray">
+        <item>black</item>
+        <item>white</item>
+        <item>dimgrey</item>
+        <item>grey</item>
+        <item>darkgrey</item>
+        <item>lightgrey</item>
+        <item>honeydew</item>
+        <item>thistle</item>
+        <item>silver</item>
+        <item>bisque</item>
+        <item>lemonchiffon3</item>
+        <item>sandybrown</item>
+        <item>orange</item>
+        <item>gold</item>
+        <item>yellow</item>
+        <item>greenyellow</item>
+        <item>green</item>
+        <item>springgreen</item>
+        <item>mediumseagreen</item>
+        <item>lightgreen</item>
+        <item>mediumaquamarine</item>
+        <item>lightcyan</item>
+        <item>cyan</item>
+        <item>darkcyan</item>
+        <item>cornflowerblue</item>
+        <item>steelblue</item>
+        <item>blue</item>
+        <item>slateblue</item>
+        <item>blueviolet</item>
+        <item>magenta</item>
+        <item>mediumorchid</item>
+        <item>plum</item>
+        <item>violet</item>
+        <item>palevioletred</item>
+        <item>indianred</item>
+        <item>red</item>
+        <item>crimson</item>
+        <item>firebrick</item>
+        <item>brown</item>
+        <item>coral</item>
+        <item>lightcoral</item>
+    </string-array>
+
+
+</resources>

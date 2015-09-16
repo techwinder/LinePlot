@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android" >
+
+    <PreferenceCategory android:title="@string/hardwareAcceleration" >
+        <CheckBoxPreference
+            android:defaultValue="false"
+            android:key="hardwareAcceleration"
+            android:summary="@string/hdwAccSummary"
+            android:title="@string/hdwAccTitle" />
+
+    </PreferenceCategory>
+
+</PreferenceScreen>

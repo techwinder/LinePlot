@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android" >
+
+    <PreferenceCategory android:title="@string/graphFontSettings" >
+        <ListPreference
+            android:dialogTitle="@string/fontTypeDialog"
+            android:entries="@array/fontTypeStringArray"
+            android:entryValues="@array/fontTypeStringArray"
+            android:defaultValue="sans-serif-light"
+            android:key="graphFontType"
+            android:summary="@string/fontTypeSummary"
+            android:title="@string/fontTypeTitle" />
+        <ListPreference
+            android:dialogTitle="@string/fontStyleDialog"
+            android:entries="@array/fontStyleStringArray"
+            android:entryValues="@array/fontStyleStringArray"
+            android:defaultValue="normal"
+            android:key="graphFontStyle"
+            android:summary="@string/fontStyleSummary"
+            android:title="@string/fontStyleTitle" />
+
+        <EditTextPreference
+            android:name="fontsize"
+            android:defaultValue="23"
+            android:gravity="right"
+            android:inputType="number"
+            android:key="graphFontSize"
+            android:summary="@string/graphFontSizeSummary"
+            android:title="@string/graphFontSizeTitle" />
+
+    </PreferenceCategory>
+
+</PreferenceScreen>

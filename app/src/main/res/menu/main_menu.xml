@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android" >
+    <item
+        android:id="@+id/action_settings"
+        android:title="@string/hello_world">
+    </item>
+    <item
+    android:id="@+id/openfile"
+    android:title="@string/openfile">
+    </item>
+    <item
+        android:id="@+id/graphvariables"
+        android:title="@string/graphvariables">
+    </item>
+    <item
+        android:id="@+id/graphsettings"
+        android:title="@string/graphsettings">
+    </item>
+    <item
+        android:id="@+id/contact"
+        android:title="@string/contact">
+    </item>
+        <item
+        android:id="@+id/about"
+        android:title="@string/about">
+    </item>
+    <item
+        android:id="@+id/quit"
+        android:title="@string/quit"/>
+
+</menu>

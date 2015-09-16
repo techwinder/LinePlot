@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- This is a primitive example showing the different types of preferences available. -->
+
+<preference-headers xmlns:android="http://schemas.android.com/apk/res/android" >
+
+    <header
+        android:fragment="techwind.util.lineplot.PrefsGraphActivity$FontPrefsFragment"
+        android:summary="Define the font style"
+        android:title="Font" />
+    <header
+        android:fragment="techwind.util.lineplot.PrefsGraphActivity$MarginPrefsFragment"
+        android:summary="Define the left, right, top and bottom margins"
+        android:title="Margins" />
+    <header
+        android:fragment="techwind.util.lineplot.PrefsGraphActivity$HdwAccPrefsFragment"
+        android:summary="Enable/Disable graphic hardware acceleration"
+        android:title="Graphic hardware acceleration" />
+</preference-headers>

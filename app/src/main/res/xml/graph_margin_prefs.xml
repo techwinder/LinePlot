@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android" >
+
+    <EditTextPreference
+        android:name="leftmargin"
+        android:defaultValue="73"
+        android:gravity="right"
+        android:inputType="number"
+        android:key="leftMargin"
+        android:summary="@string/graphMarginSummary"
+        android:title="@string/graphLeftMarginTitle" />
+    <EditTextPreference
+        android:name="rightmargin"
+        android:defaultValue="73"
+        android:gravity="right"
+        android:inputType="number"
+        android:key="rightMargin"
+        android:summary="@string/graphMarginSummary"
+        android:title="@string/graphRightMarginTitle" />
+    <EditTextPreference
+        android:name="topmargin"
+        android:defaultValue="73"
+        android:gravity="right"
+        android:inputType="number"
+        android:key="topMargin"
+        android:summary="@string/graphMarginSummary"
+        android:title="@string/graphTopMarginTitle" />
+    <EditTextPreference
+        android:name="botmargin"
+        android:defaultValue="73"
+        android:gravity="right"
+        android:inputType="number"
+        android:key="botMargin"
+        android:summary="@string/graphMarginSummary"
+        android:title="@string/graphBotMarginTitle" />
+
+</PreferenceScreen>
